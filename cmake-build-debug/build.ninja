@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/ACER/CLionProjects/CodeForces/cmake-build-debug/
+cmake_ninja_workdir = C$:/Github/CodeforcesInCpp/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target A
 
@@ -49,11 +49,13 @@ cmake_ninja_workdir = C$:/Users/ACER/CLionProjects/CodeForces/cmake-build-debug/
 
 build cmake_object_order_depends_target_A: phony || CMakeFiles/A.dir
 
-build CMakeFiles/A.dir/A.cpp.obj: CXX_COMPILER__A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/A.cpp || cmake_object_order_depends_target_A
+build CMakeFiles/A.dir/A.cpp.obj: CXX_COMPILER__A_unscanned_Debug C$:/Github/CodeforcesInCpp/A.cpp || cmake_object_order_depends_target_A
   DEP_FILE = CMakeFiles\A.dir\A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\A.dir
   OBJECT_FILE_DIR = CMakeFiles\A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\A.dir\
+  TARGET_PDB = A.pdb
 
 
 # =============================================================================
@@ -69,9 +71,10 @@ build A.exe: CXX_EXECUTABLE_LINKER__A_Debug CMakeFiles/A.dir/A.cpp.obj
   OBJECT_DIR = CMakeFiles\A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\A.dir\
   TARGET_FILE = A.exe
   TARGET_IMPLIB = libA.dll.a
-  TARGET_PDB = A.exe.dbg
+  TARGET_PDB = A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target untitled
@@ -82,11 +85,13 @@ build A.exe: CXX_EXECUTABLE_LINKER__A_Debug CMakeFiles/A.dir/A.cpp.obj
 
 build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
 
-build CMakeFiles/untitled.dir/Problem486A.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem486A.cpp || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/Problem486A.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem486A.cpp || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles\untitled.dir\Problem486A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+  TARGET_COMPILE_PDB = CMakeFiles\untitled.dir\
+  TARGET_PDB = untitled.pdb
 
 
 # =============================================================================
@@ -102,9 +107,10 @@ build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.di
   OBJECT_DIR = CMakeFiles\untitled.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\untitled.dir\
   TARGET_FILE = untitled.exe
   TARGET_IMPLIB = libuntitled.dll.a
-  TARGET_PDB = untitled.exe.dbg
+  TARGET_PDB = untitled.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ProblemA
@@ -115,11 +121,13 @@ build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.di
 
 build cmake_object_order_depends_target_ProblemA: phony || CMakeFiles/ProblemA.dir
 
-build CMakeFiles/ProblemA.dir/ProblemA.cpp.obj: CXX_COMPILER__ProblemA_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/ProblemA.cpp || cmake_object_order_depends_target_ProblemA
+build CMakeFiles/ProblemA.dir/ProblemA.cpp.obj: CXX_COMPILER__ProblemA_unscanned_Debug C$:/Github/CodeforcesInCpp/ProblemA.cpp || cmake_object_order_depends_target_ProblemA
   DEP_FILE = CMakeFiles\ProblemA.dir\ProblemA.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ProblemA.dir
   OBJECT_FILE_DIR = CMakeFiles\ProblemA.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ProblemA.dir\
+  TARGET_PDB = ProblemA.pdb
 
 
 # =============================================================================
@@ -135,9 +143,10 @@ build ProblemA.exe: CXX_EXECUTABLE_LINKER__ProblemA_Debug CMakeFiles/ProblemA.di
   OBJECT_DIR = CMakeFiles\ProblemA.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\ProblemA.dir\
   TARGET_FILE = ProblemA.exe
   TARGET_IMPLIB = libProblemA.dll.a
-  TARGET_PDB = ProblemA.exe.dbg
+  TARGET_PDB = ProblemA.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ProblemB
@@ -148,11 +157,13 @@ build ProblemA.exe: CXX_EXECUTABLE_LINKER__ProblemA_Debug CMakeFiles/ProblemA.di
 
 build cmake_object_order_depends_target_ProblemB: phony || CMakeFiles/ProblemB.dir
 
-build CMakeFiles/ProblemB.dir/ProblemB.cpp.obj: CXX_COMPILER__ProblemB_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/ProblemB.cpp || cmake_object_order_depends_target_ProblemB
+build CMakeFiles/ProblemB.dir/ProblemB.cpp.obj: CXX_COMPILER__ProblemB_unscanned_Debug C$:/Github/CodeforcesInCpp/ProblemB.cpp || cmake_object_order_depends_target_ProblemB
   DEP_FILE = CMakeFiles\ProblemB.dir\ProblemB.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ProblemB.dir
   OBJECT_FILE_DIR = CMakeFiles\ProblemB.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ProblemB.dir\
+  TARGET_PDB = ProblemB.pdb
 
 
 # =============================================================================
@@ -168,9 +179,10 @@ build ProblemB.exe: CXX_EXECUTABLE_LINKER__ProblemB_Debug CMakeFiles/ProblemB.di
   OBJECT_DIR = CMakeFiles\ProblemB.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\ProblemB.dir\
   TARGET_FILE = ProblemB.exe
   TARGET_IMPLIB = libProblemB.dll.a
-  TARGET_PDB = ProblemB.exe.dbg
+  TARGET_PDB = ProblemB.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem200B
@@ -181,11 +193,13 @@ build ProblemB.exe: CXX_EXECUTABLE_LINKER__ProblemB_Debug CMakeFiles/ProblemB.di
 
 build cmake_object_order_depends_target_Problem200B: phony || CMakeFiles/Problem200B.dir
 
-build CMakeFiles/Problem200B.dir/Problem200B.cpp.obj: CXX_COMPILER__Problem200B_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem200B.cpp || cmake_object_order_depends_target_Problem200B
+build CMakeFiles/Problem200B.dir/Problem200B.cpp.obj: CXX_COMPILER__Problem200B_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem200B.cpp || cmake_object_order_depends_target_Problem200B
   DEP_FILE = CMakeFiles\Problem200B.dir\Problem200B.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem200B.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem200B.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem200B.dir\
+  TARGET_PDB = Problem200B.pdb
 
 
 # =============================================================================
@@ -201,9 +215,10 @@ build Problem200B.exe: CXX_EXECUTABLE_LINKER__Problem200B_Debug CMakeFiles/Probl
   OBJECT_DIR = CMakeFiles\Problem200B.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem200B.dir\
   TARGET_FILE = Problem200B.exe
   TARGET_IMPLIB = libProblem200B.dll.a
-  TARGET_PDB = Problem200B.exe.dbg
+  TARGET_PDB = Problem200B.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem61A
@@ -214,11 +229,13 @@ build Problem200B.exe: CXX_EXECUTABLE_LINKER__Problem200B_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem61A: phony || CMakeFiles/Problem61A.dir
 
-build CMakeFiles/Problem61A.dir/Problem61A.cpp.obj: CXX_COMPILER__Problem61A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem61A.cpp || cmake_object_order_depends_target_Problem61A
+build CMakeFiles/Problem61A.dir/Problem61A.cpp.obj: CXX_COMPILER__Problem61A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem61A.cpp || cmake_object_order_depends_target_Problem61A
   DEP_FILE = CMakeFiles\Problem61A.dir\Problem61A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem61A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem61A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem61A.dir\
+  TARGET_PDB = Problem61A.pdb
 
 
 # =============================================================================
@@ -234,9 +251,10 @@ build Problem61A.exe: CXX_EXECUTABLE_LINKER__Problem61A_Debug CMakeFiles/Problem
   OBJECT_DIR = CMakeFiles\Problem61A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem61A.dir\
   TARGET_FILE = Problem61A.exe
   TARGET_IMPLIB = libProblem61A.dll.a
-  TARGET_PDB = Problem61A.exe.dbg
+  TARGET_PDB = Problem61A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem228A
@@ -247,11 +265,13 @@ build Problem61A.exe: CXX_EXECUTABLE_LINKER__Problem61A_Debug CMakeFiles/Problem
 
 build cmake_object_order_depends_target_Problem228A: phony || CMakeFiles/Problem228A.dir
 
-build CMakeFiles/Problem228A.dir/Problem228A.cpp.obj: CXX_COMPILER__Problem228A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem228A.cpp || cmake_object_order_depends_target_Problem228A
+build CMakeFiles/Problem228A.dir/Problem228A.cpp.obj: CXX_COMPILER__Problem228A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem228A.cpp || cmake_object_order_depends_target_Problem228A
   DEP_FILE = CMakeFiles\Problem228A.dir\Problem228A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem228A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem228A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem228A.dir\
+  TARGET_PDB = Problem228A.pdb
 
 
 # =============================================================================
@@ -267,9 +287,10 @@ build Problem228A.exe: CXX_EXECUTABLE_LINKER__Problem228A_Debug CMakeFiles/Probl
   OBJECT_DIR = CMakeFiles\Problem228A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem228A.dir\
   TARGET_FILE = Problem228A.exe
   TARGET_IMPLIB = libProblem228A.dll.a
-  TARGET_PDB = Problem228A.exe.dbg
+  TARGET_PDB = Problem228A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem1989C
@@ -280,11 +301,13 @@ build Problem228A.exe: CXX_EXECUTABLE_LINKER__Problem228A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem1989C: phony || CMakeFiles/Problem1989C.dir
 
-build CMakeFiles/Problem1989C.dir/Problem1989C.cpp.obj: CXX_COMPILER__Problem1989C_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1989C.cpp || cmake_object_order_depends_target_Problem1989C
+build CMakeFiles/Problem1989C.dir/Problem1989C.cpp.obj: CXX_COMPILER__Problem1989C_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1989C.cpp || cmake_object_order_depends_target_Problem1989C
   DEP_FILE = CMakeFiles\Problem1989C.dir\Problem1989C.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1989C.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem1989C.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem1989C.dir\
+  TARGET_PDB = Problem1989C.pdb
 
 
 # =============================================================================
@@ -300,9 +323,10 @@ build Problem1989C.exe: CXX_EXECUTABLE_LINKER__Problem1989C_Debug CMakeFiles/Pro
   OBJECT_DIR = CMakeFiles\Problem1989C.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem1989C.dir\
   TARGET_FILE = Problem1989C.exe
   TARGET_IMPLIB = libProblem1989C.dll.a
-  TARGET_PDB = Problem1989C.exe.dbg
+  TARGET_PDB = Problem1989C.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem705A
@@ -313,11 +337,13 @@ build Problem1989C.exe: CXX_EXECUTABLE_LINKER__Problem1989C_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem705A: phony || CMakeFiles/Problem705A.dir
 
-build CMakeFiles/Problem705A.dir/Problem705A.cpp.obj: CXX_COMPILER__Problem705A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem705A.cpp || cmake_object_order_depends_target_Problem705A
+build CMakeFiles/Problem705A.dir/Problem705A.cpp.obj: CXX_COMPILER__Problem705A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem705A.cpp || cmake_object_order_depends_target_Problem705A
   DEP_FILE = CMakeFiles\Problem705A.dir\Problem705A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem705A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem705A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem705A.dir\
+  TARGET_PDB = Problem705A.pdb
 
 
 # =============================================================================
@@ -333,9 +359,10 @@ build Problem705A.exe: CXX_EXECUTABLE_LINKER__Problem705A_Debug CMakeFiles/Probl
   OBJECT_DIR = CMakeFiles\Problem705A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem705A.dir\
   TARGET_FILE = Problem705A.exe
   TARGET_IMPLIB = libProblem705A.dll.a
-  TARGET_PDB = Problem705A.exe.dbg
+  TARGET_PDB = Problem705A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem1328A
@@ -346,11 +373,13 @@ build Problem705A.exe: CXX_EXECUTABLE_LINKER__Problem705A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem1328A: phony || CMakeFiles/Problem1328A.dir
 
-build CMakeFiles/Problem1328A.dir/Problem1328A.cpp.obj: CXX_COMPILER__Problem1328A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1328A.cpp || cmake_object_order_depends_target_Problem1328A
+build CMakeFiles/Problem1328A.dir/Problem1328A.cpp.obj: CXX_COMPILER__Problem1328A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1328A.cpp || cmake_object_order_depends_target_Problem1328A
   DEP_FILE = CMakeFiles\Problem1328A.dir\Problem1328A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1328A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem1328A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem1328A.dir\
+  TARGET_PDB = Problem1328A.pdb
 
 
 # =============================================================================
@@ -366,9 +395,10 @@ build Problem1328A.exe: CXX_EXECUTABLE_LINKER__Problem1328A_Debug CMakeFiles/Pro
   OBJECT_DIR = CMakeFiles\Problem1328A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem1328A.dir\
   TARGET_FILE = Problem1328A.exe
   TARGET_IMPLIB = libProblem1328A.dll.a
-  TARGET_PDB = Problem1328A.exe.dbg
+  TARGET_PDB = Problem1328A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem469A
@@ -379,11 +409,13 @@ build Problem1328A.exe: CXX_EXECUTABLE_LINKER__Problem1328A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem469A: phony || CMakeFiles/Problem469A.dir
 
-build CMakeFiles/Problem469A.dir/Problem469A.cpp.obj: CXX_COMPILER__Problem469A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem469A.cpp || cmake_object_order_depends_target_Problem469A
+build CMakeFiles/Problem469A.dir/Problem469A.cpp.obj: CXX_COMPILER__Problem469A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem469A.cpp || cmake_object_order_depends_target_Problem469A
   DEP_FILE = CMakeFiles\Problem469A.dir\Problem469A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem469A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem469A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem469A.dir\
+  TARGET_PDB = Problem469A.pdb
 
 
 # =============================================================================
@@ -399,9 +431,10 @@ build Problem469A.exe: CXX_EXECUTABLE_LINKER__Problem469A_Debug CMakeFiles/Probl
   OBJECT_DIR = CMakeFiles\Problem469A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem469A.dir\
   TARGET_FILE = Problem469A.exe
   TARGET_IMPLIB = libProblem469A.dll.a
-  TARGET_PDB = Problem469A.exe.dbg
+  TARGET_PDB = Problem469A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem502A
@@ -412,11 +445,13 @@ build Problem469A.exe: CXX_EXECUTABLE_LINKER__Problem469A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem502A: phony || CMakeFiles/Problem502A.dir
 
-build CMakeFiles/Problem502A.dir/Problem502A.cpp.obj: CXX_COMPILER__Problem502A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem502A.cpp || cmake_object_order_depends_target_Problem502A
+build CMakeFiles/Problem502A.dir/Problem502A.cpp.obj: CXX_COMPILER__Problem502A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem502A.cpp || cmake_object_order_depends_target_Problem502A
   DEP_FILE = CMakeFiles\Problem502A.dir\Problem502A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem502A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem502A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem502A.dir\
+  TARGET_PDB = Problem502A.pdb
 
 
 # =============================================================================
@@ -432,9 +467,10 @@ build Problem502A.exe: CXX_EXECUTABLE_LINKER__Problem502A_Debug CMakeFiles/Probl
   OBJECT_DIR = CMakeFiles\Problem502A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem502A.dir\
   TARGET_FILE = Problem502A.exe
   TARGET_IMPLIB = libProblem502A.dll.a
-  TARGET_PDB = Problem502A.exe.dbg
+  TARGET_PDB = Problem502A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem144A
@@ -445,11 +481,13 @@ build Problem502A.exe: CXX_EXECUTABLE_LINKER__Problem502A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem144A: phony || CMakeFiles/Problem144A.dir
 
-build CMakeFiles/Problem144A.dir/Problem144A.cpp.obj: CXX_COMPILER__Problem144A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem144A.cpp || cmake_object_order_depends_target_Problem144A
+build CMakeFiles/Problem144A.dir/Problem144A.cpp.obj: CXX_COMPILER__Problem144A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem144A.cpp || cmake_object_order_depends_target_Problem144A
   DEP_FILE = CMakeFiles\Problem144A.dir\Problem144A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem144A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem144A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem144A.dir\
+  TARGET_PDB = Problem144A.pdb
 
 
 # =============================================================================
@@ -465,9 +503,10 @@ build Problem144A.exe: CXX_EXECUTABLE_LINKER__Problem144A_Debug CMakeFiles/Probl
   OBJECT_DIR = CMakeFiles\Problem144A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem144A.dir\
   TARGET_FILE = Problem144A.exe
   TARGET_IMPLIB = libProblem144A.dll.a
-  TARGET_PDB = Problem144A.exe.dbg
+  TARGET_PDB = Problem144A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem148A
@@ -478,11 +517,13 @@ build Problem144A.exe: CXX_EXECUTABLE_LINKER__Problem144A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem148A: phony || CMakeFiles/Problem148A.dir
 
-build CMakeFiles/Problem148A.dir/Problem148A.cpp.obj: CXX_COMPILER__Problem148A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem148A.cpp || cmake_object_order_depends_target_Problem148A
+build CMakeFiles/Problem148A.dir/Problem148A.cpp.obj: CXX_COMPILER__Problem148A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem148A.cpp || cmake_object_order_depends_target_Problem148A
   DEP_FILE = CMakeFiles\Problem148A.dir\Problem148A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem148A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem148A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem148A.dir\
+  TARGET_PDB = Problem148A.pdb
 
 
 # =============================================================================
@@ -498,9 +539,10 @@ build Problem148A.exe: CXX_EXECUTABLE_LINKER__Problem148A_Debug CMakeFiles/Probl
   OBJECT_DIR = CMakeFiles\Problem148A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem148A.dir\
   TARGET_FILE = Problem148A.exe
   TARGET_IMPLIB = libProblem148A.dll.a
-  TARGET_PDB = Problem148A.exe.dbg
+  TARGET_PDB = Problem148A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem996A
@@ -511,11 +553,13 @@ build Problem148A.exe: CXX_EXECUTABLE_LINKER__Problem148A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem996A: phony || CMakeFiles/Problem996A.dir
 
-build CMakeFiles/Problem996A.dir/Problem996A.cpp.obj: CXX_COMPILER__Problem996A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem996A.cpp || cmake_object_order_depends_target_Problem996A
+build CMakeFiles/Problem996A.dir/Problem996A.cpp.obj: CXX_COMPILER__Problem996A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem996A.cpp || cmake_object_order_depends_target_Problem996A
   DEP_FILE = CMakeFiles\Problem996A.dir\Problem996A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem996A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem996A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem996A.dir\
+  TARGET_PDB = Problem996A.pdb
 
 
 # =============================================================================
@@ -531,9 +575,10 @@ build Problem996A.exe: CXX_EXECUTABLE_LINKER__Problem996A_Debug CMakeFiles/Probl
   OBJECT_DIR = CMakeFiles\Problem996A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem996A.dir\
   TARGET_FILE = Problem996A.exe
   TARGET_IMPLIB = libProblem996A.dll.a
-  TARGET_PDB = Problem996A.exe.dbg
+  TARGET_PDB = Problem996A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem443A
@@ -544,11 +589,13 @@ build Problem996A.exe: CXX_EXECUTABLE_LINKER__Problem996A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem443A: phony || CMakeFiles/Problem443A.dir
 
-build CMakeFiles/Problem443A.dir/Problem443A.cpp.obj: CXX_COMPILER__Problem443A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem443A.cpp || cmake_object_order_depends_target_Problem443A
+build CMakeFiles/Problem443A.dir/Problem443A.cpp.obj: CXX_COMPILER__Problem443A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem443A.cpp || cmake_object_order_depends_target_Problem443A
   DEP_FILE = CMakeFiles\Problem443A.dir\Problem443A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem443A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem443A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem443A.dir\
+  TARGET_PDB = Problem443A.pdb
 
 
 # =============================================================================
@@ -564,9 +611,10 @@ build Problem443A.exe: CXX_EXECUTABLE_LINKER__Problem443A_Debug CMakeFiles/Probl
   OBJECT_DIR = CMakeFiles\Problem443A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem443A.dir\
   TARGET_FILE = Problem443A.exe
   TARGET_IMPLIB = libProblem443A.dll.a
-  TARGET_PDB = Problem443A.exe.dbg
+  TARGET_PDB = Problem443A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem785A
@@ -577,11 +625,13 @@ build Problem443A.exe: CXX_EXECUTABLE_LINKER__Problem443A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem785A: phony || CMakeFiles/Problem785A.dir
 
-build CMakeFiles/Problem785A.dir/Problem785A.cpp.obj: CXX_COMPILER__Problem785A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem785A.cpp || cmake_object_order_depends_target_Problem785A
+build CMakeFiles/Problem785A.dir/Problem785A.cpp.obj: CXX_COMPILER__Problem785A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem785A.cpp || cmake_object_order_depends_target_Problem785A
   DEP_FILE = CMakeFiles\Problem785A.dir\Problem785A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem785A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem785A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem785A.dir\
+  TARGET_PDB = Problem785A.pdb
 
 
 # =============================================================================
@@ -597,9 +647,10 @@ build Problem785A.exe: CXX_EXECUTABLE_LINKER__Problem785A_Debug CMakeFiles/Probl
   OBJECT_DIR = CMakeFiles\Problem785A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem785A.dir\
   TARGET_FILE = Problem785A.exe
   TARGET_IMPLIB = libProblem785A.dll.a
-  TARGET_PDB = Problem785A.exe.dbg
+  TARGET_PDB = Problem785A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem268A
@@ -610,11 +661,13 @@ build Problem785A.exe: CXX_EXECUTABLE_LINKER__Problem785A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem268A: phony || CMakeFiles/Problem268A.dir
 
-build CMakeFiles/Problem268A.dir/Problem268A.cpp.obj: CXX_COMPILER__Problem268A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem268A.cpp || cmake_object_order_depends_target_Problem268A
+build CMakeFiles/Problem268A.dir/Problem268A.cpp.obj: CXX_COMPILER__Problem268A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem268A.cpp || cmake_object_order_depends_target_Problem268A
   DEP_FILE = CMakeFiles\Problem268A.dir\Problem268A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem268A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem268A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem268A.dir\
+  TARGET_PDB = Problem268A.pdb
 
 
 # =============================================================================
@@ -630,9 +683,10 @@ build Problem268A.exe: CXX_EXECUTABLE_LINKER__Problem268A_Debug CMakeFiles/Probl
   OBJECT_DIR = CMakeFiles\Problem268A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem268A.dir\
   TARGET_FILE = Problem268A.exe
   TARGET_IMPLIB = libProblem268A.dll.a
-  TARGET_PDB = Problem268A.exe.dbg
+  TARGET_PDB = Problem268A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem1335A
@@ -643,11 +697,13 @@ build Problem268A.exe: CXX_EXECUTABLE_LINKER__Problem268A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem1335A: phony || CMakeFiles/Problem1335A.dir
 
-build CMakeFiles/Problem1335A.dir/Problem1335A.cpp.obj: CXX_COMPILER__Problem1335A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1335A.cpp || cmake_object_order_depends_target_Problem1335A
+build CMakeFiles/Problem1335A.dir/Problem1335A.cpp.obj: CXX_COMPILER__Problem1335A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1335A.cpp || cmake_object_order_depends_target_Problem1335A
   DEP_FILE = CMakeFiles\Problem1335A.dir\Problem1335A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1335A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem1335A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem1335A.dir\
+  TARGET_PDB = Problem1335A.pdb
 
 
 # =============================================================================
@@ -663,9 +719,10 @@ build Problem1335A.exe: CXX_EXECUTABLE_LINKER__Problem1335A_Debug CMakeFiles/Pro
   OBJECT_DIR = CMakeFiles\Problem1335A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem1335A.dir\
   TARGET_FILE = Problem1335A.exe
   TARGET_IMPLIB = libProblem1335A.dll.a
-  TARGET_PDB = Problem1335A.exe.dbg
+  TARGET_PDB = Problem1335A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem141A
@@ -676,11 +733,13 @@ build Problem1335A.exe: CXX_EXECUTABLE_LINKER__Problem1335A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem141A: phony || CMakeFiles/Problem141A.dir
 
-build CMakeFiles/Problem141A.dir/Problem141A.cpp.obj: CXX_COMPILER__Problem141A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem141A.cpp || cmake_object_order_depends_target_Problem141A
+build CMakeFiles/Problem141A.dir/Problem141A.cpp.obj: CXX_COMPILER__Problem141A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem141A.cpp || cmake_object_order_depends_target_Problem141A
   DEP_FILE = CMakeFiles\Problem141A.dir\Problem141A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem141A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem141A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem141A.dir\
+  TARGET_PDB = Problem141A.pdb
 
 
 # =============================================================================
@@ -696,9 +755,10 @@ build Problem141A.exe: CXX_EXECUTABLE_LINKER__Problem141A_Debug CMakeFiles/Probl
   OBJECT_DIR = CMakeFiles\Problem141A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem141A.dir\
   TARGET_FILE = Problem141A.exe
   TARGET_IMPLIB = libProblem141A.dll.a
-  TARGET_PDB = Problem141A.exe.dbg
+  TARGET_PDB = Problem141A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem510A
@@ -709,11 +769,13 @@ build Problem141A.exe: CXX_EXECUTABLE_LINKER__Problem141A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem510A: phony || CMakeFiles/Problem510A.dir
 
-build CMakeFiles/Problem510A.dir/Problem510A.cpp.obj: CXX_COMPILER__Problem510A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem510A.cpp || cmake_object_order_depends_target_Problem510A
+build CMakeFiles/Problem510A.dir/Problem510A.cpp.obj: CXX_COMPILER__Problem510A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem510A.cpp || cmake_object_order_depends_target_Problem510A
   DEP_FILE = CMakeFiles\Problem510A.dir\Problem510A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem510A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem510A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem510A.dir\
+  TARGET_PDB = Problem510A.pdb
 
 
 # =============================================================================
@@ -729,9 +791,10 @@ build Problem510A.exe: CXX_EXECUTABLE_LINKER__Problem510A_Debug CMakeFiles/Probl
   OBJECT_DIR = CMakeFiles\Problem510A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem510A.dir\
   TARGET_FILE = Problem510A.exe
   TARGET_IMPLIB = libProblem510A.dll.a
-  TARGET_PDB = Problem510A.exe.dbg
+  TARGET_PDB = Problem510A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem1352A
@@ -742,11 +805,13 @@ build Problem510A.exe: CXX_EXECUTABLE_LINKER__Problem510A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem1352A: phony || CMakeFiles/Problem1352A.dir
 
-build CMakeFiles/Problem1352A.dir/Problem1352A.cpp.obj: CXX_COMPILER__Problem1352A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1352A.cpp || cmake_object_order_depends_target_Problem1352A
+build CMakeFiles/Problem1352A.dir/Problem1352A.cpp.obj: CXX_COMPILER__Problem1352A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1352A.cpp || cmake_object_order_depends_target_Problem1352A
   DEP_FILE = CMakeFiles\Problem1352A.dir\Problem1352A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1352A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem1352A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem1352A.dir\
+  TARGET_PDB = Problem1352A.pdb
 
 
 # =============================================================================
@@ -762,9 +827,10 @@ build Problem1352A.exe: CXX_EXECUTABLE_LINKER__Problem1352A_Debug CMakeFiles/Pro
   OBJECT_DIR = CMakeFiles\Problem1352A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem1352A.dir\
   TARGET_FILE = Problem1352A.exe
   TARGET_IMPLIB = libProblem1352A.dll.a
-  TARGET_PDB = Problem1352A.exe.dbg
+  TARGET_PDB = Problem1352A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem427A
@@ -775,11 +841,13 @@ build Problem1352A.exe: CXX_EXECUTABLE_LINKER__Problem1352A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem427A: phony || CMakeFiles/Problem427A.dir
 
-build CMakeFiles/Problem427A.dir/Problem427A.cpp.obj: CXX_COMPILER__Problem427A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem427A.cpp || cmake_object_order_depends_target_Problem427A
+build CMakeFiles/Problem427A.dir/Problem427A.cpp.obj: CXX_COMPILER__Problem427A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem427A.cpp || cmake_object_order_depends_target_Problem427A
   DEP_FILE = CMakeFiles\Problem427A.dir\Problem427A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem427A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem427A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem427A.dir\
+  TARGET_PDB = Problem427A.pdb
 
 
 # =============================================================================
@@ -795,9 +863,10 @@ build Problem427A.exe: CXX_EXECUTABLE_LINKER__Problem427A_Debug CMakeFiles/Probl
   OBJECT_DIR = CMakeFiles\Problem427A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem427A.dir\
   TARGET_FILE = Problem427A.exe
   TARGET_IMPLIB = libProblem427A.dll.a
-  TARGET_PDB = Problem427A.exe.dbg
+  TARGET_PDB = Problem427A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem723A
@@ -808,11 +877,13 @@ build Problem427A.exe: CXX_EXECUTABLE_LINKER__Problem427A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem723A: phony || CMakeFiles/Problem723A.dir
 
-build CMakeFiles/Problem723A.dir/Problem723A.cpp.obj: CXX_COMPILER__Problem723A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem723A.cpp || cmake_object_order_depends_target_Problem723A
+build CMakeFiles/Problem723A.dir/Problem723A.cpp.obj: CXX_COMPILER__Problem723A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem723A.cpp || cmake_object_order_depends_target_Problem723A
   DEP_FILE = CMakeFiles\Problem723A.dir\Problem723A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem723A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem723A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem723A.dir\
+  TARGET_PDB = Problem723A.pdb
 
 
 # =============================================================================
@@ -828,9 +899,10 @@ build Problem723A.exe: CXX_EXECUTABLE_LINKER__Problem723A_Debug CMakeFiles/Probl
   OBJECT_DIR = CMakeFiles\Problem723A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem723A.dir\
   TARGET_FILE = Problem723A.exe
   TARGET_IMPLIB = libProblem723A.dll.a
-  TARGET_PDB = Problem723A.exe.dbg
+  TARGET_PDB = Problem723A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem750A
@@ -841,11 +913,13 @@ build Problem723A.exe: CXX_EXECUTABLE_LINKER__Problem723A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem750A: phony || CMakeFiles/Problem750A.dir
 
-build CMakeFiles/Problem750A.dir/Problem750A.cpp.obj: CXX_COMPILER__Problem750A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem750A.cpp || cmake_object_order_depends_target_Problem750A
+build CMakeFiles/Problem750A.dir/Problem750A.cpp.obj: CXX_COMPILER__Problem750A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem750A.cpp || cmake_object_order_depends_target_Problem750A
   DEP_FILE = CMakeFiles\Problem750A.dir\Problem750A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem750A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem750A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem750A.dir\
+  TARGET_PDB = Problem750A.pdb
 
 
 # =============================================================================
@@ -861,9 +935,10 @@ build Problem750A.exe: CXX_EXECUTABLE_LINKER__Problem750A_Debug CMakeFiles/Probl
   OBJECT_DIR = CMakeFiles\Problem750A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem750A.dir\
   TARGET_FILE = Problem750A.exe
   TARGET_IMPLIB = libProblem750A.dll.a
-  TARGET_PDB = Problem750A.exe.dbg
+  TARGET_PDB = Problem750A.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Problem155A
@@ -874,11 +949,13 @@ build Problem750A.exe: CXX_EXECUTABLE_LINKER__Problem750A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem155A: phony || CMakeFiles/Problem155A.dir
 
-build CMakeFiles/Problem155A.dir/Problem155A.cpp.obj: CXX_COMPILER__Problem155A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem155A.cpp || cmake_object_order_depends_target_Problem155A
+build CMakeFiles/Problem155A.dir/Problem155A.cpp.obj: CXX_COMPILER__Problem155A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem155A.cpp || cmake_object_order_depends_target_Problem155A
   DEP_FILE = CMakeFiles\Problem155A.dir\Problem155A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem155A.dir
   OBJECT_FILE_DIR = CMakeFiles\Problem155A.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Problem155A.dir\
+  TARGET_PDB = Problem155A.pdb
 
 
 # =============================================================================
@@ -894,16 +971,17 @@ build Problem155A.exe: CXX_EXECUTABLE_LINKER__Problem155A_Debug CMakeFiles/Probl
   OBJECT_DIR = CMakeFiles\Problem155A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Problem155A.dir\
   TARGET_FILE = Problem155A.exe
   TARGET_IMPLIB = libProblem155A.dll.a
-  TARGET_PDB = Problem155A.exe.dbg
+  TARGET_PDB = Problem155A.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\ACER\CLionProjects\CodeForces\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Github\CodeforcesInCpp\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -914,7 +992,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\ACER\CLionProjects\CodeForces\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\ACER\CLionProjects\CodeForces -BC:\Users\ACER\CLionProjects\CodeForces\cmake-build-debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Github\CodeforcesInCpp\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Github\CodeforcesInCpp -BC:\Github\CodeforcesInCpp\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -982,7 +1060,7 @@ build untitled: phony untitled.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/ACER/CLionProjects/CodeForces/cmake-build-debug
+# Folder: C:/Github/CodeforcesInCpp/cmake-build-debug
 
 build all: phony A.exe untitled.exe ProblemA.exe ProblemB.exe Problem200B.exe Problem61A.exe Problem228A.exe Problem1989C.exe Problem705A.exe Problem1328A.exe Problem469A.exe Problem502A.exe Problem144A.exe Problem148A.exe Problem996A.exe Problem443A.exe Problem785A.exe Problem268A.exe Problem1335A.exe Problem141A.exe Problem510A.exe Problem1352A.exe Problem427A.exe Problem723A.exe Problem750A.exe Problem155A.exe
 
@@ -993,14 +1071,14 @@ build all: phony A.exe untitled.exe ProblemA.exe ProblemB.exe Problem200B.exe Pr
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/ACER/CLionProjects/CodeForces/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Github/CodeforcesInCpp/CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/ACER/CLionProjects/CodeForces/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build C$:/Github/CodeforcesInCpp/CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################
