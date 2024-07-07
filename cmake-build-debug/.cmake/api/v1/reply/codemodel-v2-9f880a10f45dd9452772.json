@@ -69,7 +69,8 @@
 						51,
 						52,
 						53,
-						54
+						54,
+						55
 					]
 				}
 			],
@@ -138,7 +139,8 @@
 						51,
 						52,
 						53,
-						54
+						54,
+						55
 					]
 				}
 			],
@@ -461,6 +463,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Problem703A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Problem703A-Debug-596024c688e48fb1cf05.json",
+					"name" : "Problem703A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Problem705A::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Problem705A-Debug-8208c10d66d7ff3f7c41.json",
 					"name" : "Problem705A",
@@ -535,8 +544,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/ACER/CLionProjects/CodeForces/cmake-build-debug",
-		"source" : "C:/Users/ACER/CLionProjects/CodeForces"
+		"build" : "C:/Github/CodeforcesInCpp/cmake-build-debug",
+		"source" : "C:/Github/CodeforcesInCpp"
 	},
 	"version" : 
 	{

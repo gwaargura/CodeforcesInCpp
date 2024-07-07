@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/ACER/CLionProjects/CodeForces/cmake-build-debug/
+cmake_ninja_workdir = C$:/Github/CodeforcesInCpp/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target A
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/ACER/CLionProjects/CodeForces/cmake-build-debug/
 
 build cmake_object_order_depends_target_A: phony || CMakeFiles/A.dir
 
-build CMakeFiles/A.dir/A.cpp.obj: CXX_COMPILER__A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/A.cpp || cmake_object_order_depends_target_A
+build CMakeFiles/A.dir/A.cpp.obj: CXX_COMPILER__A_unscanned_Debug C$:/Github/CodeforcesInCpp/A.cpp || cmake_object_order_depends_target_A
   DEP_FILE = CMakeFiles\A.dir\A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\A.dir
@@ -82,7 +82,7 @@ build A.exe: CXX_EXECUTABLE_LINKER__A_Debug CMakeFiles/A.dir/A.cpp.obj
 
 build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
 
-build CMakeFiles/untitled.dir/Problem486A.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem486A.cpp || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/Problem486A.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem486A.cpp || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles\untitled.dir\Problem486A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled.dir
@@ -115,7 +115,7 @@ build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.di
 
 build cmake_object_order_depends_target_ProblemA: phony || CMakeFiles/ProblemA.dir
 
-build CMakeFiles/ProblemA.dir/ProblemA.cpp.obj: CXX_COMPILER__ProblemA_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/ProblemA.cpp || cmake_object_order_depends_target_ProblemA
+build CMakeFiles/ProblemA.dir/ProblemA.cpp.obj: CXX_COMPILER__ProblemA_unscanned_Debug C$:/Github/CodeforcesInCpp/ProblemA.cpp || cmake_object_order_depends_target_ProblemA
   DEP_FILE = CMakeFiles\ProblemA.dir\ProblemA.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ProblemA.dir
@@ -148,7 +148,7 @@ build ProblemA.exe: CXX_EXECUTABLE_LINKER__ProblemA_Debug CMakeFiles/ProblemA.di
 
 build cmake_object_order_depends_target_ProblemB: phony || CMakeFiles/ProblemB.dir
 
-build CMakeFiles/ProblemB.dir/ProblemB.cpp.obj: CXX_COMPILER__ProblemB_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/ProblemB.cpp || cmake_object_order_depends_target_ProblemB
+build CMakeFiles/ProblemB.dir/ProblemB.cpp.obj: CXX_COMPILER__ProblemB_unscanned_Debug C$:/Github/CodeforcesInCpp/ProblemB.cpp || cmake_object_order_depends_target_ProblemB
   DEP_FILE = CMakeFiles\ProblemB.dir\ProblemB.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ProblemB.dir
@@ -181,7 +181,7 @@ build ProblemB.exe: CXX_EXECUTABLE_LINKER__ProblemB_Debug CMakeFiles/ProblemB.di
 
 build cmake_object_order_depends_target_Problem200B: phony || CMakeFiles/Problem200B.dir
 
-build CMakeFiles/Problem200B.dir/Problem200B.cpp.obj: CXX_COMPILER__Problem200B_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem200B.cpp || cmake_object_order_depends_target_Problem200B
+build CMakeFiles/Problem200B.dir/Problem200B.cpp.obj: CXX_COMPILER__Problem200B_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem200B.cpp || cmake_object_order_depends_target_Problem200B
   DEP_FILE = CMakeFiles\Problem200B.dir\Problem200B.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem200B.dir
@@ -214,7 +214,7 @@ build Problem200B.exe: CXX_EXECUTABLE_LINKER__Problem200B_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem61A: phony || CMakeFiles/Problem61A.dir
 
-build CMakeFiles/Problem61A.dir/Problem61A.cpp.obj: CXX_COMPILER__Problem61A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem61A.cpp || cmake_object_order_depends_target_Problem61A
+build CMakeFiles/Problem61A.dir/Problem61A.cpp.obj: CXX_COMPILER__Problem61A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem61A.cpp || cmake_object_order_depends_target_Problem61A
   DEP_FILE = CMakeFiles\Problem61A.dir\Problem61A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem61A.dir
@@ -247,7 +247,7 @@ build Problem61A.exe: CXX_EXECUTABLE_LINKER__Problem61A_Debug CMakeFiles/Problem
 
 build cmake_object_order_depends_target_Problem228A: phony || CMakeFiles/Problem228A.dir
 
-build CMakeFiles/Problem228A.dir/Problem228A.cpp.obj: CXX_COMPILER__Problem228A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem228A.cpp || cmake_object_order_depends_target_Problem228A
+build CMakeFiles/Problem228A.dir/Problem228A.cpp.obj: CXX_COMPILER__Problem228A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem228A.cpp || cmake_object_order_depends_target_Problem228A
   DEP_FILE = CMakeFiles\Problem228A.dir\Problem228A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem228A.dir
@@ -280,7 +280,7 @@ build Problem228A.exe: CXX_EXECUTABLE_LINKER__Problem228A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem1989C: phony || CMakeFiles/Problem1989C.dir
 
-build CMakeFiles/Problem1989C.dir/Problem1989C.cpp.obj: CXX_COMPILER__Problem1989C_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1989C.cpp || cmake_object_order_depends_target_Problem1989C
+build CMakeFiles/Problem1989C.dir/Problem1989C.cpp.obj: CXX_COMPILER__Problem1989C_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1989C.cpp || cmake_object_order_depends_target_Problem1989C
   DEP_FILE = CMakeFiles\Problem1989C.dir\Problem1989C.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1989C.dir
@@ -313,7 +313,7 @@ build Problem1989C.exe: CXX_EXECUTABLE_LINKER__Problem1989C_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem705A: phony || CMakeFiles/Problem705A.dir
 
-build CMakeFiles/Problem705A.dir/Problem705A.cpp.obj: CXX_COMPILER__Problem705A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem705A.cpp || cmake_object_order_depends_target_Problem705A
+build CMakeFiles/Problem705A.dir/Problem705A.cpp.obj: CXX_COMPILER__Problem705A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem705A.cpp || cmake_object_order_depends_target_Problem705A
   DEP_FILE = CMakeFiles\Problem705A.dir\Problem705A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem705A.dir
@@ -346,7 +346,7 @@ build Problem705A.exe: CXX_EXECUTABLE_LINKER__Problem705A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem1328A: phony || CMakeFiles/Problem1328A.dir
 
-build CMakeFiles/Problem1328A.dir/Problem1328A.cpp.obj: CXX_COMPILER__Problem1328A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1328A.cpp || cmake_object_order_depends_target_Problem1328A
+build CMakeFiles/Problem1328A.dir/Problem1328A.cpp.obj: CXX_COMPILER__Problem1328A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1328A.cpp || cmake_object_order_depends_target_Problem1328A
   DEP_FILE = CMakeFiles\Problem1328A.dir\Problem1328A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1328A.dir
@@ -379,7 +379,7 @@ build Problem1328A.exe: CXX_EXECUTABLE_LINKER__Problem1328A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem469A: phony || CMakeFiles/Problem469A.dir
 
-build CMakeFiles/Problem469A.dir/Problem469A.cpp.obj: CXX_COMPILER__Problem469A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem469A.cpp || cmake_object_order_depends_target_Problem469A
+build CMakeFiles/Problem469A.dir/Problem469A.cpp.obj: CXX_COMPILER__Problem469A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem469A.cpp || cmake_object_order_depends_target_Problem469A
   DEP_FILE = CMakeFiles\Problem469A.dir\Problem469A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem469A.dir
@@ -412,7 +412,7 @@ build Problem469A.exe: CXX_EXECUTABLE_LINKER__Problem469A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem502A: phony || CMakeFiles/Problem502A.dir
 
-build CMakeFiles/Problem502A.dir/Problem502A.cpp.obj: CXX_COMPILER__Problem502A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem502A.cpp || cmake_object_order_depends_target_Problem502A
+build CMakeFiles/Problem502A.dir/Problem502A.cpp.obj: CXX_COMPILER__Problem502A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem502A.cpp || cmake_object_order_depends_target_Problem502A
   DEP_FILE = CMakeFiles\Problem502A.dir\Problem502A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem502A.dir
@@ -445,7 +445,7 @@ build Problem502A.exe: CXX_EXECUTABLE_LINKER__Problem502A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem144A: phony || CMakeFiles/Problem144A.dir
 
-build CMakeFiles/Problem144A.dir/Problem144A.cpp.obj: CXX_COMPILER__Problem144A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem144A.cpp || cmake_object_order_depends_target_Problem144A
+build CMakeFiles/Problem144A.dir/Problem144A.cpp.obj: CXX_COMPILER__Problem144A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem144A.cpp || cmake_object_order_depends_target_Problem144A
   DEP_FILE = CMakeFiles\Problem144A.dir\Problem144A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem144A.dir
@@ -478,7 +478,7 @@ build Problem144A.exe: CXX_EXECUTABLE_LINKER__Problem144A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem148A: phony || CMakeFiles/Problem148A.dir
 
-build CMakeFiles/Problem148A.dir/Problem148A.cpp.obj: CXX_COMPILER__Problem148A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem148A.cpp || cmake_object_order_depends_target_Problem148A
+build CMakeFiles/Problem148A.dir/Problem148A.cpp.obj: CXX_COMPILER__Problem148A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem148A.cpp || cmake_object_order_depends_target_Problem148A
   DEP_FILE = CMakeFiles\Problem148A.dir\Problem148A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem148A.dir
@@ -511,7 +511,7 @@ build Problem148A.exe: CXX_EXECUTABLE_LINKER__Problem148A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem996A: phony || CMakeFiles/Problem996A.dir
 
-build CMakeFiles/Problem996A.dir/Problem996A.cpp.obj: CXX_COMPILER__Problem996A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem996A.cpp || cmake_object_order_depends_target_Problem996A
+build CMakeFiles/Problem996A.dir/Problem996A.cpp.obj: CXX_COMPILER__Problem996A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem996A.cpp || cmake_object_order_depends_target_Problem996A
   DEP_FILE = CMakeFiles\Problem996A.dir\Problem996A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem996A.dir
@@ -544,7 +544,7 @@ build Problem996A.exe: CXX_EXECUTABLE_LINKER__Problem996A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem443A: phony || CMakeFiles/Problem443A.dir
 
-build CMakeFiles/Problem443A.dir/Problem443A.cpp.obj: CXX_COMPILER__Problem443A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem443A.cpp || cmake_object_order_depends_target_Problem443A
+build CMakeFiles/Problem443A.dir/Problem443A.cpp.obj: CXX_COMPILER__Problem443A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem443A.cpp || cmake_object_order_depends_target_Problem443A
   DEP_FILE = CMakeFiles\Problem443A.dir\Problem443A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem443A.dir
@@ -577,7 +577,7 @@ build Problem443A.exe: CXX_EXECUTABLE_LINKER__Problem443A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem785A: phony || CMakeFiles/Problem785A.dir
 
-build CMakeFiles/Problem785A.dir/Problem785A.cpp.obj: CXX_COMPILER__Problem785A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem785A.cpp || cmake_object_order_depends_target_Problem785A
+build CMakeFiles/Problem785A.dir/Problem785A.cpp.obj: CXX_COMPILER__Problem785A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem785A.cpp || cmake_object_order_depends_target_Problem785A
   DEP_FILE = CMakeFiles\Problem785A.dir\Problem785A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem785A.dir
@@ -610,7 +610,7 @@ build Problem785A.exe: CXX_EXECUTABLE_LINKER__Problem785A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem268A: phony || CMakeFiles/Problem268A.dir
 
-build CMakeFiles/Problem268A.dir/Problem268A.cpp.obj: CXX_COMPILER__Problem268A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem268A.cpp || cmake_object_order_depends_target_Problem268A
+build CMakeFiles/Problem268A.dir/Problem268A.cpp.obj: CXX_COMPILER__Problem268A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem268A.cpp || cmake_object_order_depends_target_Problem268A
   DEP_FILE = CMakeFiles\Problem268A.dir\Problem268A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem268A.dir
@@ -643,7 +643,7 @@ build Problem268A.exe: CXX_EXECUTABLE_LINKER__Problem268A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem1335A: phony || CMakeFiles/Problem1335A.dir
 
-build CMakeFiles/Problem1335A.dir/Problem1335A.cpp.obj: CXX_COMPILER__Problem1335A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1335A.cpp || cmake_object_order_depends_target_Problem1335A
+build CMakeFiles/Problem1335A.dir/Problem1335A.cpp.obj: CXX_COMPILER__Problem1335A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1335A.cpp || cmake_object_order_depends_target_Problem1335A
   DEP_FILE = CMakeFiles\Problem1335A.dir\Problem1335A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1335A.dir
@@ -676,7 +676,7 @@ build Problem1335A.exe: CXX_EXECUTABLE_LINKER__Problem1335A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem141A: phony || CMakeFiles/Problem141A.dir
 
-build CMakeFiles/Problem141A.dir/Problem141A.cpp.obj: CXX_COMPILER__Problem141A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem141A.cpp || cmake_object_order_depends_target_Problem141A
+build CMakeFiles/Problem141A.dir/Problem141A.cpp.obj: CXX_COMPILER__Problem141A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem141A.cpp || cmake_object_order_depends_target_Problem141A
   DEP_FILE = CMakeFiles\Problem141A.dir\Problem141A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem141A.dir
@@ -709,7 +709,7 @@ build Problem141A.exe: CXX_EXECUTABLE_LINKER__Problem141A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem510A: phony || CMakeFiles/Problem510A.dir
 
-build CMakeFiles/Problem510A.dir/Problem510A.cpp.obj: CXX_COMPILER__Problem510A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem510A.cpp || cmake_object_order_depends_target_Problem510A
+build CMakeFiles/Problem510A.dir/Problem510A.cpp.obj: CXX_COMPILER__Problem510A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem510A.cpp || cmake_object_order_depends_target_Problem510A
   DEP_FILE = CMakeFiles\Problem510A.dir\Problem510A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem510A.dir
@@ -742,7 +742,7 @@ build Problem510A.exe: CXX_EXECUTABLE_LINKER__Problem510A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem1352A: phony || CMakeFiles/Problem1352A.dir
 
-build CMakeFiles/Problem1352A.dir/Problem1352A.cpp.obj: CXX_COMPILER__Problem1352A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1352A.cpp || cmake_object_order_depends_target_Problem1352A
+build CMakeFiles/Problem1352A.dir/Problem1352A.cpp.obj: CXX_COMPILER__Problem1352A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1352A.cpp || cmake_object_order_depends_target_Problem1352A
   DEP_FILE = CMakeFiles\Problem1352A.dir\Problem1352A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1352A.dir
@@ -775,7 +775,7 @@ build Problem1352A.exe: CXX_EXECUTABLE_LINKER__Problem1352A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem427A: phony || CMakeFiles/Problem427A.dir
 
-build CMakeFiles/Problem427A.dir/Problem427A.cpp.obj: CXX_COMPILER__Problem427A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem427A.cpp || cmake_object_order_depends_target_Problem427A
+build CMakeFiles/Problem427A.dir/Problem427A.cpp.obj: CXX_COMPILER__Problem427A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem427A.cpp || cmake_object_order_depends_target_Problem427A
   DEP_FILE = CMakeFiles\Problem427A.dir\Problem427A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem427A.dir
@@ -808,7 +808,7 @@ build Problem427A.exe: CXX_EXECUTABLE_LINKER__Problem427A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem723A: phony || CMakeFiles/Problem723A.dir
 
-build CMakeFiles/Problem723A.dir/Problem723A.cpp.obj: CXX_COMPILER__Problem723A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem723A.cpp || cmake_object_order_depends_target_Problem723A
+build CMakeFiles/Problem723A.dir/Problem723A.cpp.obj: CXX_COMPILER__Problem723A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem723A.cpp || cmake_object_order_depends_target_Problem723A
   DEP_FILE = CMakeFiles\Problem723A.dir\Problem723A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem723A.dir
@@ -841,7 +841,7 @@ build Problem723A.exe: CXX_EXECUTABLE_LINKER__Problem723A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem750A: phony || CMakeFiles/Problem750A.dir
 
-build CMakeFiles/Problem750A.dir/Problem750A.cpp.obj: CXX_COMPILER__Problem750A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem750A.cpp || cmake_object_order_depends_target_Problem750A
+build CMakeFiles/Problem750A.dir/Problem750A.cpp.obj: CXX_COMPILER__Problem750A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem750A.cpp || cmake_object_order_depends_target_Problem750A
   DEP_FILE = CMakeFiles\Problem750A.dir\Problem750A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem750A.dir
@@ -874,7 +874,7 @@ build Problem750A.exe: CXX_EXECUTABLE_LINKER__Problem750A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem155A: phony || CMakeFiles/Problem155A.dir
 
-build CMakeFiles/Problem155A.dir/Problem155A.cpp.obj: CXX_COMPILER__Problem155A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem155A.cpp || cmake_object_order_depends_target_Problem155A
+build CMakeFiles/Problem155A.dir/Problem155A.cpp.obj: CXX_COMPILER__Problem155A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem155A.cpp || cmake_object_order_depends_target_Problem155A
   DEP_FILE = CMakeFiles\Problem155A.dir\Problem155A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem155A.dir
@@ -907,7 +907,7 @@ build Problem155A.exe: CXX_EXECUTABLE_LINKER__Problem155A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem731A: phony || CMakeFiles/Problem731A.dir
 
-build CMakeFiles/Problem731A.dir/Problem731A.cpp.obj: CXX_COMPILER__Problem731A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem731A.cpp || cmake_object_order_depends_target_Problem731A
+build CMakeFiles/Problem731A.dir/Problem731A.cpp.obj: CXX_COMPILER__Problem731A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem731A.cpp || cmake_object_order_depends_target_Problem731A
   DEP_FILE = CMakeFiles\Problem731A.dir\Problem731A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem731A.dir
@@ -940,7 +940,7 @@ build Problem731A.exe: CXX_EXECUTABLE_LINKER__Problem731A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem581A: phony || CMakeFiles/Problem581A.dir
 
-build CMakeFiles/Problem581A.dir/Problem581A.cpp.obj: CXX_COMPILER__Problem581A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem581A.cpp || cmake_object_order_depends_target_Problem581A
+build CMakeFiles/Problem581A.dir/Problem581A.cpp.obj: CXX_COMPILER__Problem581A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem581A.cpp || cmake_object_order_depends_target_Problem581A
   DEP_FILE = CMakeFiles\Problem581A.dir\Problem581A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem581A.dir
@@ -973,7 +973,7 @@ build Problem581A.exe: CXX_EXECUTABLE_LINKER__Problem581A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem151A: phony || CMakeFiles/Problem151A.dir
 
-build CMakeFiles/Problem151A.dir/Problem151A.cpp.obj: CXX_COMPILER__Problem151A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem151A.cpp || cmake_object_order_depends_target_Problem151A
+build CMakeFiles/Problem151A.dir/Problem151A.cpp.obj: CXX_COMPILER__Problem151A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem151A.cpp || cmake_object_order_depends_target_Problem151A
   DEP_FILE = CMakeFiles\Problem151A.dir\Problem151A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem151A.dir
@@ -1006,7 +1006,7 @@ build Problem151A.exe: CXX_EXECUTABLE_LINKER__Problem151A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem1154A: phony || CMakeFiles/Problem1154A.dir
 
-build CMakeFiles/Problem1154A.dir/Problem1154A.cpp.obj: CXX_COMPILER__Problem1154A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1154A.cpp || cmake_object_order_depends_target_Problem1154A
+build CMakeFiles/Problem1154A.dir/Problem1154A.cpp.obj: CXX_COMPILER__Problem1154A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1154A.cpp || cmake_object_order_depends_target_Problem1154A
   DEP_FILE = CMakeFiles\Problem1154A.dir\Problem1154A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1154A.dir
@@ -1039,7 +1039,7 @@ build Problem1154A.exe: CXX_EXECUTABLE_LINKER__Problem1154A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem1742A: phony || CMakeFiles/Problem1742A.dir
 
-build CMakeFiles/Problem1742A.dir/Problem1742A.cpp.obj: CXX_COMPILER__Problem1742A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1742A.cpp || cmake_object_order_depends_target_Problem1742A
+build CMakeFiles/Problem1742A.dir/Problem1742A.cpp.obj: CXX_COMPILER__Problem1742A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1742A.cpp || cmake_object_order_depends_target_Problem1742A
   DEP_FILE = CMakeFiles\Problem1742A.dir\Problem1742A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1742A.dir
@@ -1072,7 +1072,7 @@ build Problem1742A.exe: CXX_EXECUTABLE_LINKER__Problem1742A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem1703A: phony || CMakeFiles/Problem1703A.dir
 
-build CMakeFiles/Problem1703A.dir/Problem1703A.cpp.obj: CXX_COMPILER__Problem1703A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1703A.cpp || cmake_object_order_depends_target_Problem1703A
+build CMakeFiles/Problem1703A.dir/Problem1703A.cpp.obj: CXX_COMPILER__Problem1703A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1703A.cpp || cmake_object_order_depends_target_Problem1703A
   DEP_FILE = CMakeFiles\Problem1703A.dir\Problem1703A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1703A.dir
@@ -1105,7 +1105,7 @@ build Problem1703A.exe: CXX_EXECUTABLE_LINKER__Problem1703A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem1984A: phony || CMakeFiles/Problem1984A.dir
 
-build CMakeFiles/Problem1984A.dir/Problem1984A.cpp.obj: CXX_COMPILER__Problem1984A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1984A.cpp || cmake_object_order_depends_target_Problem1984A
+build CMakeFiles/Problem1984A.dir/Problem1984A.cpp.obj: CXX_COMPILER__Problem1984A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1984A.cpp || cmake_object_order_depends_target_Problem1984A
   DEP_FILE = CMakeFiles\Problem1984A.dir\Problem1984A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1984A.dir
@@ -1138,7 +1138,7 @@ build Problem1984A.exe: CXX_EXECUTABLE_LINKER__Problem1984A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem1986A: phony || CMakeFiles/Problem1986A.dir
 
-build CMakeFiles/Problem1986A.dir/Problem1986A.cpp.obj: CXX_COMPILER__Problem1986A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1986A.cpp || cmake_object_order_depends_target_Problem1986A
+build CMakeFiles/Problem1986A.dir/Problem1986A.cpp.obj: CXX_COMPILER__Problem1986A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1986A.cpp || cmake_object_order_depends_target_Problem1986A
   DEP_FILE = CMakeFiles\Problem1986A.dir\Problem1986A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1986A.dir
@@ -1171,7 +1171,7 @@ build Problem1986A.exe: CXX_EXECUTABLE_LINKER__Problem1986A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem1985D: phony || CMakeFiles/Problem1985D.dir
 
-build CMakeFiles/Problem1985D.dir/Problem1985D.cpp.obj: CXX_COMPILER__Problem1985D_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1985D.cpp || cmake_object_order_depends_target_Problem1985D
+build CMakeFiles/Problem1985D.dir/Problem1985D.cpp.obj: CXX_COMPILER__Problem1985D_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1985D.cpp || cmake_object_order_depends_target_Problem1985D
   DEP_FILE = CMakeFiles\Problem1985D.dir\Problem1985D.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1985D.dir
@@ -1204,7 +1204,7 @@ build Problem1985D.exe: CXX_EXECUTABLE_LINKER__Problem1985D_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem1399A: phony || CMakeFiles/Problem1399A.dir
 
-build CMakeFiles/Problem1399A.dir/Problem1399A.cpp.obj: CXX_COMPILER__Problem1399A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1399A.cpp || cmake_object_order_depends_target_Problem1399A
+build CMakeFiles/Problem1399A.dir/Problem1399A.cpp.obj: CXX_COMPILER__Problem1399A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1399A.cpp || cmake_object_order_depends_target_Problem1399A
   DEP_FILE = CMakeFiles\Problem1399A.dir\Problem1399A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1399A.dir
@@ -1237,7 +1237,7 @@ build Problem1399A.exe: CXX_EXECUTABLE_LINKER__Problem1399A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem136A: phony || CMakeFiles/Problem136A.dir
 
-build CMakeFiles/Problem136A.dir/Problem136A.cpp.obj: CXX_COMPILER__Problem136A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem136A.cpp || cmake_object_order_depends_target_Problem136A
+build CMakeFiles/Problem136A.dir/Problem136A.cpp.obj: CXX_COMPILER__Problem136A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem136A.cpp || cmake_object_order_depends_target_Problem136A
   DEP_FILE = CMakeFiles\Problem136A.dir\Problem136A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem136A.dir
@@ -1270,7 +1270,7 @@ build Problem136A.exe: CXX_EXECUTABLE_LINKER__Problem136A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem266B: phony || CMakeFiles/Problem266B.dir
 
-build CMakeFiles/Problem266B.dir/Problem266B.cpp.obj: CXX_COMPILER__Problem266B_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem266B.cpp || cmake_object_order_depends_target_Problem266B
+build CMakeFiles/Problem266B.dir/Problem266B.cpp.obj: CXX_COMPILER__Problem266B_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem266B.cpp || cmake_object_order_depends_target_Problem266B
   DEP_FILE = CMakeFiles\Problem266B.dir\Problem266B.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem266B.dir
@@ -1303,7 +1303,7 @@ build Problem266B.exe: CXX_EXECUTABLE_LINKER__Problem266B_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem630A: phony || CMakeFiles/Problem630A.dir
 
-build CMakeFiles/Problem630A.dir/Problem630A.cpp.obj: CXX_COMPILER__Problem630A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem630A.cpp || cmake_object_order_depends_target_Problem630A
+build CMakeFiles/Problem630A.dir/Problem630A.cpp.obj: CXX_COMPILER__Problem630A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem630A.cpp || cmake_object_order_depends_target_Problem630A
   DEP_FILE = CMakeFiles\Problem630A.dir\Problem630A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem630A.dir
@@ -1336,7 +1336,7 @@ build Problem630A.exe: CXX_EXECUTABLE_LINKER__Problem630A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem1409A: phony || CMakeFiles/Problem1409A.dir
 
-build CMakeFiles/Problem1409A.dir/Problem1409A.cpp.obj: CXX_COMPILER__Problem1409A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1409A.cpp || cmake_object_order_depends_target_Problem1409A
+build CMakeFiles/Problem1409A.dir/Problem1409A.cpp.obj: CXX_COMPILER__Problem1409A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1409A.cpp || cmake_object_order_depends_target_Problem1409A
   DEP_FILE = CMakeFiles\Problem1409A.dir\Problem1409A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1409A.dir
@@ -1369,7 +1369,7 @@ build Problem1409A.exe: CXX_EXECUTABLE_LINKER__Problem1409A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem381A: phony || CMakeFiles/Problem381A.dir
 
-build CMakeFiles/Problem381A.dir/Problem381A.cpp.obj: CXX_COMPILER__Problem381A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem381A.cpp || cmake_object_order_depends_target_Problem381A
+build CMakeFiles/Problem381A.dir/Problem381A.cpp.obj: CXX_COMPILER__Problem381A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem381A.cpp || cmake_object_order_depends_target_Problem381A
   DEP_FILE = CMakeFiles\Problem381A.dir\Problem381A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem381A.dir
@@ -1402,7 +1402,7 @@ build Problem381A.exe: CXX_EXECUTABLE_LINKER__Problem381A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem1692A: phony || CMakeFiles/Problem1692A.dir
 
-build CMakeFiles/Problem1692A.dir/Problem1692A.cpp.obj: CXX_COMPILER__Problem1692A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1692A.cpp || cmake_object_order_depends_target_Problem1692A
+build CMakeFiles/Problem1692A.dir/Problem1692A.cpp.obj: CXX_COMPILER__Problem1692A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1692A.cpp || cmake_object_order_depends_target_Problem1692A
   DEP_FILE = CMakeFiles\Problem1692A.dir\Problem1692A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1692A.dir
@@ -1435,7 +1435,7 @@ build Problem1692A.exe: CXX_EXECUTABLE_LINKER__Problem1692A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem1512A: phony || CMakeFiles/Problem1512A.dir
 
-build CMakeFiles/Problem1512A.dir/Problem1512A.cpp.obj: CXX_COMPILER__Problem1512A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1512A.cpp || cmake_object_order_depends_target_Problem1512A
+build CMakeFiles/Problem1512A.dir/Problem1512A.cpp.obj: CXX_COMPILER__Problem1512A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1512A.cpp || cmake_object_order_depends_target_Problem1512A
   DEP_FILE = CMakeFiles\Problem1512A.dir\Problem1512A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1512A.dir
@@ -1468,7 +1468,7 @@ build Problem1512A.exe: CXX_EXECUTABLE_LINKER__Problem1512A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem32B: phony || CMakeFiles/Problem32B.dir
 
-build CMakeFiles/Problem32B.dir/Problem32B.cpp.obj: CXX_COMPILER__Problem32B_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem32B.cpp || cmake_object_order_depends_target_Problem32B
+build CMakeFiles/Problem32B.dir/Problem32B.cpp.obj: CXX_COMPILER__Problem32B_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem32B.cpp || cmake_object_order_depends_target_Problem32B
   DEP_FILE = CMakeFiles\Problem32B.dir\Problem32B.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem32B.dir
@@ -1501,7 +1501,7 @@ build Problem32B.exe: CXX_EXECUTABLE_LINKER__Problem32B_Debug CMakeFiles/Problem
 
 build cmake_object_order_depends_target_Problem1676A: phony || CMakeFiles/Problem1676A.dir
 
-build CMakeFiles/Problem1676A.dir/Problem1676A.cpp.obj: CXX_COMPILER__Problem1676A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1676A.cpp || cmake_object_order_depends_target_Problem1676A
+build CMakeFiles/Problem1676A.dir/Problem1676A.cpp.obj: CXX_COMPILER__Problem1676A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1676A.cpp || cmake_object_order_depends_target_Problem1676A
   DEP_FILE = CMakeFiles\Problem1676A.dir\Problem1676A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1676A.dir
@@ -1534,7 +1534,7 @@ build Problem1676A.exe: CXX_EXECUTABLE_LINKER__Problem1676A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem1669A: phony || CMakeFiles/Problem1669A.dir
 
-build CMakeFiles/Problem1669A.dir/Problem1669A.cpp.obj: CXX_COMPILER__Problem1669A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1669A.cpp || cmake_object_order_depends_target_Problem1669A
+build CMakeFiles/Problem1669A.dir/Problem1669A.cpp.obj: CXX_COMPILER__Problem1669A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1669A.cpp || cmake_object_order_depends_target_Problem1669A
   DEP_FILE = CMakeFiles\Problem1669A.dir\Problem1669A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1669A.dir
@@ -1567,7 +1567,7 @@ build Problem1669A.exe: CXX_EXECUTABLE_LINKER__Problem1669A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem758A: phony || CMakeFiles/Problem758A.dir
 
-build CMakeFiles/Problem758A.dir/Problem758A.cpp.obj: CXX_COMPILER__Problem758A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem758A.cpp || cmake_object_order_depends_target_Problem758A
+build CMakeFiles/Problem758A.dir/Problem758A.cpp.obj: CXX_COMPILER__Problem758A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem758A.cpp || cmake_object_order_depends_target_Problem758A
   DEP_FILE = CMakeFiles\Problem758A.dir\Problem758A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem758A.dir
@@ -1600,7 +1600,7 @@ build Problem758A.exe: CXX_EXECUTABLE_LINKER__Problem758A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem1807A: phony || CMakeFiles/Problem1807A.dir
 
-build CMakeFiles/Problem1807A.dir/Problem1807A.cpp.obj: CXX_COMPILER__Problem1807A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1807A.cpp || cmake_object_order_depends_target_Problem1807A
+build CMakeFiles/Problem1807A.dir/Problem1807A.cpp.obj: CXX_COMPILER__Problem1807A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1807A.cpp || cmake_object_order_depends_target_Problem1807A
   DEP_FILE = CMakeFiles\Problem1807A.dir\Problem1807A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1807A.dir
@@ -1633,7 +1633,7 @@ build Problem1807A.exe: CXX_EXECUTABLE_LINKER__Problem1807A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem472A: phony || CMakeFiles/Problem472A.dir
 
-build CMakeFiles/Problem472A.dir/Problem472A.cpp.obj: CXX_COMPILER__Problem472A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem472A.cpp || cmake_object_order_depends_target_Problem472A
+build CMakeFiles/Problem472A.dir/Problem472A.cpp.obj: CXX_COMPILER__Problem472A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem472A.cpp || cmake_object_order_depends_target_Problem472A
   DEP_FILE = CMakeFiles\Problem472A.dir\Problem472A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem472A.dir
@@ -1666,7 +1666,7 @@ build Problem472A.exe: CXX_EXECUTABLE_LINKER__Problem472A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem432A: phony || CMakeFiles/Problem432A.dir
 
-build CMakeFiles/Problem432A.dir/Problem432A.cpp.obj: CXX_COMPILER__Problem432A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem432A.cpp || cmake_object_order_depends_target_Problem432A
+build CMakeFiles/Problem432A.dir/Problem432A.cpp.obj: CXX_COMPILER__Problem432A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem432A.cpp || cmake_object_order_depends_target_Problem432A
   DEP_FILE = CMakeFiles\Problem432A.dir\Problem432A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem432A.dir
@@ -1699,7 +1699,7 @@ build Problem432A.exe: CXX_EXECUTABLE_LINKER__Problem432A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem1560A: phony || CMakeFiles/Problem1560A.dir
 
-build CMakeFiles/Problem1560A.dir/Problem1560A.cpp.obj: CXX_COMPILER__Problem1560A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1560A.cpp || cmake_object_order_depends_target_Problem1560A
+build CMakeFiles/Problem1560A.dir/Problem1560A.cpp.obj: CXX_COMPILER__Problem1560A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1560A.cpp || cmake_object_order_depends_target_Problem1560A
   DEP_FILE = CMakeFiles\Problem1560A.dir\Problem1560A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1560A.dir
@@ -1732,7 +1732,7 @@ build Problem1560A.exe: CXX_EXECUTABLE_LINKER__Problem1560A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem1791A: phony || CMakeFiles/Problem1791A.dir
 
-build CMakeFiles/Problem1791A.dir/Problem1791A.cpp.obj: CXX_COMPILER__Problem1791A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1791A.cpp || cmake_object_order_depends_target_Problem1791A
+build CMakeFiles/Problem1791A.dir/Problem1791A.cpp.obj: CXX_COMPILER__Problem1791A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1791A.cpp || cmake_object_order_depends_target_Problem1791A
   DEP_FILE = CMakeFiles\Problem1791A.dir\Problem1791A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1791A.dir
@@ -1765,7 +1765,7 @@ build Problem1791A.exe: CXX_EXECUTABLE_LINKER__Problem1791A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem490A: phony || CMakeFiles/Problem490A.dir
 
-build CMakeFiles/Problem490A.dir/Problem490A.cpp.obj: CXX_COMPILER__Problem490A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem490A.cpp || cmake_object_order_depends_target_Problem490A
+build CMakeFiles/Problem490A.dir/Problem490A.cpp.obj: CXX_COMPILER__Problem490A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem490A.cpp || cmake_object_order_depends_target_Problem490A
   DEP_FILE = CMakeFiles\Problem490A.dir\Problem490A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem490A.dir
@@ -1798,7 +1798,7 @@ build Problem490A.exe: CXX_EXECUTABLE_LINKER__Problem490A_Debug CMakeFiles/Probl
 
 build cmake_object_order_depends_target_Problem1367A: phony || CMakeFiles/Problem1367A.dir
 
-build CMakeFiles/Problem1367A.dir/Problem1367A.cpp.obj: CXX_COMPILER__Problem1367A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1367A.cpp || cmake_object_order_depends_target_Problem1367A
+build CMakeFiles/Problem1367A.dir/Problem1367A.cpp.obj: CXX_COMPILER__Problem1367A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1367A.cpp || cmake_object_order_depends_target_Problem1367A
   DEP_FILE = CMakeFiles\Problem1367A.dir\Problem1367A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1367A.dir
@@ -1831,7 +1831,7 @@ build Problem1367A.exe: CXX_EXECUTABLE_LINKER__Problem1367A_Debug CMakeFiles/Pro
 
 build cmake_object_order_depends_target_Problem1760A: phony || CMakeFiles/Problem1760A.dir
 
-build CMakeFiles/Problem1760A.dir/Problem1760A.cpp.obj: CXX_COMPILER__Problem1760A_unscanned_Debug C$:/Users/ACER/CLionProjects/CodeForces/Problem1760A.cpp || cmake_object_order_depends_target_Problem1760A
+build CMakeFiles/Problem1760A.dir/Problem1760A.cpp.obj: CXX_COMPILER__Problem1760A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem1760A.cpp || cmake_object_order_depends_target_Problem1760A
   DEP_FILE = CMakeFiles\Problem1760A.dir\Problem1760A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Problem1760A.dir
@@ -1855,12 +1855,45 @@ build Problem1760A.exe: CXX_EXECUTABLE_LINKER__Problem1760A_Debug CMakeFiles/Pro
   TARGET_IMPLIB = libProblem1760A.dll.a
   TARGET_PDB = Problem1760A.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Problem703A
+
+
+#############################################
+# Order-only phony target for Problem703A
+
+build cmake_object_order_depends_target_Problem703A: phony || CMakeFiles/Problem703A.dir
+
+build CMakeFiles/Problem703A.dir/Problem703A.cpp.obj: CXX_COMPILER__Problem703A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem703A.cpp || cmake_object_order_depends_target_Problem703A
+  DEP_FILE = CMakeFiles\Problem703A.dir\Problem703A.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Problem703A.dir
+  OBJECT_FILE_DIR = CMakeFiles\Problem703A.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Problem703A
+
+
+#############################################
+# Link the executable Problem703A.exe
+
+build Problem703A.exe: CXX_EXECUTABLE_LINKER__Problem703A_Debug CMakeFiles/Problem703A.dir/Problem703A.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Problem703A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Problem703A.exe
+  TARGET_IMPLIB = libProblem703A.dll.a
+  TARGET_PDB = Problem703A.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\ACER\CLionProjects\CodeForces\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Github\CodeforcesInCpp\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1871,7 +1904,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\ACER\CLionProjects\CodeForces\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\ACER\CLionProjects\CodeForces -BC:\Users\ACER\CLionProjects\CodeForces\cmake-build-debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Github\CodeforcesInCpp\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Github\CodeforcesInCpp -BC:\Github\CodeforcesInCpp\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1971,6 +2004,8 @@ build Problem61A: phony Problem61A.exe
 
 build Problem630A: phony Problem630A.exe
 
+build Problem703A: phony Problem703A.exe
+
 build Problem705A: phony Problem705A.exe
 
 build Problem723A: phony Problem723A.exe
@@ -1997,9 +2032,9 @@ build untitled: phony untitled.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/ACER/CLionProjects/CodeForces/cmake-build-debug
+# Folder: C:/Github/CodeforcesInCpp/cmake-build-debug
 
-build all: phony A.exe untitled.exe ProblemA.exe ProblemB.exe Problem200B.exe Problem61A.exe Problem228A.exe Problem1989C.exe Problem705A.exe Problem1328A.exe Problem469A.exe Problem502A.exe Problem144A.exe Problem148A.exe Problem996A.exe Problem443A.exe Problem785A.exe Problem268A.exe Problem1335A.exe Problem141A.exe Problem510A.exe Problem1352A.exe Problem427A.exe Problem723A.exe Problem750A.exe Problem155A.exe Problem731A.exe Problem581A.exe Problem151A.exe Problem1154A.exe Problem1742A.exe Problem1703A.exe Problem1984A.exe Problem1986A.exe Problem1985D.exe Problem1399A.exe Problem136A.exe Problem266B.exe Problem630A.exe Problem1409A.exe Problem381A.exe Problem1692A.exe Problem1512A.exe Problem32B.exe Problem1676A.exe Problem1669A.exe Problem758A.exe Problem1807A.exe Problem472A.exe Problem432A.exe Problem1560A.exe Problem1791A.exe Problem490A.exe Problem1367A.exe Problem1760A.exe
+build all: phony A.exe untitled.exe ProblemA.exe ProblemB.exe Problem200B.exe Problem61A.exe Problem228A.exe Problem1989C.exe Problem705A.exe Problem1328A.exe Problem469A.exe Problem502A.exe Problem144A.exe Problem148A.exe Problem996A.exe Problem443A.exe Problem785A.exe Problem268A.exe Problem1335A.exe Problem141A.exe Problem510A.exe Problem1352A.exe Problem427A.exe Problem723A.exe Problem750A.exe Problem155A.exe Problem731A.exe Problem581A.exe Problem151A.exe Problem1154A.exe Problem1742A.exe Problem1703A.exe Problem1984A.exe Problem1986A.exe Problem1985D.exe Problem1399A.exe Problem136A.exe Problem266B.exe Problem630A.exe Problem1409A.exe Problem381A.exe Problem1692A.exe Problem1512A.exe Problem32B.exe Problem1676A.exe Problem1669A.exe Problem758A.exe Problem1807A.exe Problem472A.exe Problem432A.exe Problem1560A.exe Problem1791A.exe Problem490A.exe Problem1367A.exe Problem1760A.exe Problem703A.exe
 
 # =============================================================================
 # Built-in targets
@@ -2008,14 +2043,14 @@ build all: phony A.exe untitled.exe ProblemA.exe ProblemB.exe Problem200B.exe Pr
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/ACER/CLionProjects/CodeForces/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Github/CodeforcesInCpp/CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/ACER/CLionProjects/CodeForces/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build C$:/Github/CodeforcesInCpp/CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.1.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################

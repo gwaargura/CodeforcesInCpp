@@ -154,8 +154,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/ACER/CLionProjects/CodeForces/cmake-build-debug",
-		"source" : "C:/Users/ACER/CLionProjects/CodeForces"
+		"build" : "C:/Github/CodeforcesInCpp/cmake-build-debug",
+		"source" : "C:/Github/CodeforcesInCpp"
 	},
 	"version" : 
 	{
