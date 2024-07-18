@@ -2845,6 +2845,204 @@ build Problem160A.exe: CXX_EXECUTABLE_LINKER__Problem160A_Debug CMakeFiles/Probl
   TARGET_IMPLIB = libProblem160A.dll.a
   TARGET_PDB = Problem160A.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Problem318A
+
+
+#############################################
+# Order-only phony target for Problem318A
+
+build cmake_object_order_depends_target_Problem318A: phony || CMakeFiles/Problem318A.dir
+
+build CMakeFiles/Problem318A.dir/Problem318A.cpp.obj: CXX_COMPILER__Problem318A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem318A.cpp || cmake_object_order_depends_target_Problem318A
+  DEP_FILE = CMakeFiles\Problem318A.dir\Problem318A.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Problem318A.dir
+  OBJECT_FILE_DIR = CMakeFiles\Problem318A.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Problem318A
+
+
+#############################################
+# Link the executable Problem318A.exe
+
+build Problem318A.exe: CXX_EXECUTABLE_LINKER__Problem318A_Debug CMakeFiles/Problem318A.dir/Problem318A.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Problem318A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Problem318A.exe
+  TARGET_IMPLIB = libProblem318A.dll.a
+  TARGET_PDB = Problem318A.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Problem133A
+
+
+#############################################
+# Order-only phony target for Problem133A
+
+build cmake_object_order_depends_target_Problem133A: phony || CMakeFiles/Problem133A.dir
+
+build CMakeFiles/Problem133A.dir/Problem133A.cpp.obj: CXX_COMPILER__Problem133A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem133A.cpp || cmake_object_order_depends_target_Problem133A
+  DEP_FILE = CMakeFiles\Problem133A.dir\Problem133A.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Problem133A.dir
+  OBJECT_FILE_DIR = CMakeFiles\Problem133A.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Problem133A
+
+
+#############################################
+# Link the executable Problem133A.exe
+
+build Problem133A.exe: CXX_EXECUTABLE_LINKER__Problem133A_Debug CMakeFiles/Problem133A.dir/Problem133A.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Problem133A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Problem133A.exe
+  TARGET_IMPLIB = libProblem133A.dll.a
+  TARGET_PDB = Problem133A.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Problem405A
+
+
+#############################################
+# Order-only phony target for Problem405A
+
+build cmake_object_order_depends_target_Problem405A: phony || CMakeFiles/Problem405A.dir
+
+build CMakeFiles/Problem405A.dir/Problem405A.cpp.obj: CXX_COMPILER__Problem405A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem405A.cpp || cmake_object_order_depends_target_Problem405A
+  DEP_FILE = CMakeFiles\Problem405A.dir\Problem405A.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Problem405A.dir
+  OBJECT_FILE_DIR = CMakeFiles\Problem405A.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Problem405A
+
+
+#############################################
+# Link the executable Problem405A.exe
+
+build Problem405A.exe: CXX_EXECUTABLE_LINKER__Problem405A_Debug CMakeFiles/Problem405A.dir/Problem405A.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Problem405A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Problem405A.exe
+  TARGET_IMPLIB = libProblem405A.dll.a
+  TARGET_PDB = Problem405A.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Problem580A
+
+
+#############################################
+# Order-only phony target for Problem580A
+
+build cmake_object_order_depends_target_Problem580A: phony || CMakeFiles/Problem580A.dir
+
+build CMakeFiles/Problem580A.dir/Problem580A.cpp.obj: CXX_COMPILER__Problem580A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem580A.cpp || cmake_object_order_depends_target_Problem580A
+  DEP_FILE = CMakeFiles\Problem580A.dir\Problem580A.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Problem580A.dir
+  OBJECT_FILE_DIR = CMakeFiles\Problem580A.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Problem580A
+
+
+#############################################
+# Link the executable Problem580A.exe
+
+build Problem580A.exe: CXX_EXECUTABLE_LINKER__Problem580A_Debug CMakeFiles/Problem580A.dir/Problem580A.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Problem580A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Problem580A.exe
+  TARGET_IMPLIB = libProblem580A.dll.a
+  TARGET_PDB = Problem580A.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Problem208A
+
+
+#############################################
+# Order-only phony target for Problem208A
+
+build cmake_object_order_depends_target_Problem208A: phony || CMakeFiles/Problem208A.dir
+
+build CMakeFiles/Problem208A.dir/Problem208A.cpp.obj: CXX_COMPILER__Problem208A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem208A.cpp || cmake_object_order_depends_target_Problem208A
+  DEP_FILE = CMakeFiles\Problem208A.dir\Problem208A.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Problem208A.dir
+  OBJECT_FILE_DIR = CMakeFiles\Problem208A.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Problem208A
+
+
+#############################################
+# Link the executable Problem208A.exe
+
+build Problem208A.exe: CXX_EXECUTABLE_LINKER__Problem208A_Debug CMakeFiles/Problem208A.dir/Problem208A.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Problem208A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Problem208A.exe
+  TARGET_IMPLIB = libProblem208A.dll.a
+  TARGET_PDB = Problem208A.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Problem337A
+
+
+#############################################
+# Order-only phony target for Problem337A
+
+build cmake_object_order_depends_target_Problem337A: phony || CMakeFiles/Problem337A.dir
+
+build CMakeFiles/Problem337A.dir/Problem337A.cpp.obj: CXX_COMPILER__Problem337A_unscanned_Debug C$:/Github/CodeforcesInCpp/Problem337A.cpp || cmake_object_order_depends_target_Problem337A
+  DEP_FILE = CMakeFiles\Problem337A.dir\Problem337A.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Problem337A.dir
+  OBJECT_FILE_DIR = CMakeFiles\Problem337A.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Problem337A
+
+
+#############################################
+# Link the executable Problem337A.exe
+
+build Problem337A.exe: CXX_EXECUTABLE_LINKER__Problem337A_Debug CMakeFiles/Problem337A.dir/Problem337A.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Problem337A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Problem337A.exe
+  TARGET_IMPLIB = libProblem337A.dll.a
+  TARGET_PDB = Problem337A.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2880,6 +3078,8 @@ build Problem1283A: phony Problem1283A.exe
 build Problem1328A: phony Problem1328A.exe
 
 build Problem1335A: phony Problem1335A.exe
+
+build Problem133A: phony Problem133A.exe
 
 build Problem1352A: phony Problem1352A.exe
 
@@ -2971,15 +3171,23 @@ build Problem1989C: phony Problem1989C.exe
 
 build Problem200B: phony Problem200B.exe
 
+build Problem208A: phony Problem208A.exe
+
 build Problem228A: phony Problem228A.exe
 
 build Problem266B: phony Problem266B.exe
 
 build Problem268A: phony Problem268A.exe
 
+build Problem318A: phony Problem318A.exe
+
 build Problem32B: phony Problem32B.exe
 
+build Problem337A: phony Problem337A.exe
+
 build Problem381A: phony Problem381A.exe
+
+build Problem405A: phony Problem405A.exe
 
 build Problem427A: phony Problem427A.exe
 
@@ -3000,6 +3208,8 @@ build Problem492A: phony Problem492A.exe
 build Problem502A: phony Problem502A.exe
 
 build Problem510A: phony Problem510A.exe
+
+build Problem580A: phony Problem580A.exe
 
 build Problem581A: phony Problem581A.exe
 
@@ -3049,7 +3259,7 @@ build untitled: phony untitled.exe
 #############################################
 # Folder: C:/Github/CodeforcesInCpp/cmake-build-debug
 
-build all: phony A.exe untitled.exe ProblemA.exe ProblemB.exe Problem200B.exe Problem61A.exe Problem228A.exe Problem1989C.exe Problem705A.exe Problem1328A.exe Problem469A.exe Problem502A.exe Problem144A.exe Problem148A.exe Problem996A.exe Problem443A.exe Problem785A.exe Problem268A.exe Problem1335A.exe Problem141A.exe Problem510A.exe Problem1352A.exe Problem427A.exe Problem723A.exe Problem750A.exe Problem155A.exe Problem731A.exe Problem581A.exe Problem151A.exe Problem1154A.exe Problem1742A.exe Problem1703A.exe Problem1984A.exe Problem1986A.exe Problem1985D.exe Problem1399A.exe Problem136A.exe Problem266B.exe Problem630A.exe Problem1409A.exe Problem381A.exe Problem1692A.exe Problem1512A.exe Problem32B.exe Problem1676A.exe Problem1669A.exe Problem758A.exe Problem1807A.exe Problem472A.exe Problem432A.exe Problem1560A.exe Problem1791A.exe Problem490A.exe Problem1367A.exe Problem1760A.exe Problem703A.exe Problem9A.exe Problem1850A.exe Problem431A.exe Problem1915A.exe Problem1374A.exe Problem1367B.exe Problem1873A.exe Problem80A.exe Problem1624A.exe Problem1520A.exe Problem1433A.exe Problem1370A.exe Problem1619A.exe Problem1551A.exe Problem1360A.exe Problem1472A.exe Problem1353B.exe Problem1722A.exe Problem492A.exe Problem1829A.exe Problem1283A.exe Problem749A.exe Problem707A.exe Problem1535A.exe Problem1950A.exe Problem1758B.exe ProblemAOnlyPluses.exe Problem96A.exe Problem160A.exe
+build all: phony A.exe untitled.exe ProblemA.exe ProblemB.exe Problem200B.exe Problem61A.exe Problem228A.exe Problem1989C.exe Problem705A.exe Problem1328A.exe Problem469A.exe Problem502A.exe Problem144A.exe Problem148A.exe Problem996A.exe Problem443A.exe Problem785A.exe Problem268A.exe Problem1335A.exe Problem141A.exe Problem510A.exe Problem1352A.exe Problem427A.exe Problem723A.exe Problem750A.exe Problem155A.exe Problem731A.exe Problem581A.exe Problem151A.exe Problem1154A.exe Problem1742A.exe Problem1703A.exe Problem1984A.exe Problem1986A.exe Problem1985D.exe Problem1399A.exe Problem136A.exe Problem266B.exe Problem630A.exe Problem1409A.exe Problem381A.exe Problem1692A.exe Problem1512A.exe Problem32B.exe Problem1676A.exe Problem1669A.exe Problem758A.exe Problem1807A.exe Problem472A.exe Problem432A.exe Problem1560A.exe Problem1791A.exe Problem490A.exe Problem1367A.exe Problem1760A.exe Problem703A.exe Problem9A.exe Problem1850A.exe Problem431A.exe Problem1915A.exe Problem1374A.exe Problem1367B.exe Problem1873A.exe Problem80A.exe Problem1624A.exe Problem1520A.exe Problem1433A.exe Problem1370A.exe Problem1619A.exe Problem1551A.exe Problem1360A.exe Problem1472A.exe Problem1353B.exe Problem1722A.exe Problem492A.exe Problem1829A.exe Problem1283A.exe Problem749A.exe Problem707A.exe Problem1535A.exe Problem1950A.exe Problem1758B.exe ProblemAOnlyPluses.exe Problem96A.exe Problem160A.exe Problem318A.exe Problem133A.exe Problem405A.exe Problem580A.exe Problem208A.exe Problem337A.exe
 
 # =============================================================================
 # Built-in targets

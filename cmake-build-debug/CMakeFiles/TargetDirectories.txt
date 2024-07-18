@@ -83,5 +83,11 @@ C:/Github/CodeforcesInCpp/cmake-build-debug/CMakeFiles/Problem1758B.dir
 C:/Github/CodeforcesInCpp/cmake-build-debug/CMakeFiles/ProblemAOnlyPluses.dir
 C:/Github/CodeforcesInCpp/cmake-build-debug/CMakeFiles/Problem96A.dir
 C:/Github/CodeforcesInCpp/cmake-build-debug/CMakeFiles/Problem160A.dir
+C:/Github/CodeforcesInCpp/cmake-build-debug/CMakeFiles/Problem318A.dir
+C:/Github/CodeforcesInCpp/cmake-build-debug/CMakeFiles/Problem133A.dir
+C:/Github/CodeforcesInCpp/cmake-build-debug/CMakeFiles/Problem405A.dir
+C:/Github/CodeforcesInCpp/cmake-build-debug/CMakeFiles/Problem580A.dir
+C:/Github/CodeforcesInCpp/cmake-build-debug/CMakeFiles/Problem208A.dir
+C:/Github/CodeforcesInCpp/cmake-build-debug/CMakeFiles/Problem337A.dir
 C:/Github/CodeforcesInCpp/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Github/CodeforcesInCpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

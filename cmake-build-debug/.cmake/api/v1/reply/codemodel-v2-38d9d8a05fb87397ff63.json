@@ -99,7 +99,13 @@
 						81,
 						82,
 						83,
-						84
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90
 					]
 				}
 			],
@@ -198,7 +204,13 @@
 						81,
 						82,
 						83,
-						84
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90
 					]
 				}
 			],
@@ -237,6 +249,13 @@
 					"id" : "Problem1335A::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Problem1335A-Debug-ac772033860d4f91dc18.json",
 					"name" : "Problem1335A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Problem133A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Problem133A-Debug-8084eb49bc41fa8484d1.json",
+					"name" : "Problem133A",
 					"projectIndex" : 0
 				},
 				{
@@ -556,6 +575,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Problem208A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Problem208A-Debug-7f71ede524f983f0c397.json",
+					"name" : "Problem208A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Problem228A::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Problem228A-Debug-610f3c19fc58a4103010.json",
 					"name" : "Problem228A",
@@ -577,6 +603,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Problem318A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Problem318A-Debug-63d3a799e9aa34184507.json",
+					"name" : "Problem318A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Problem32B::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Problem32B-Debug-7bdd817646fd26c632d4.json",
 					"name" : "Problem32B",
@@ -584,9 +617,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Problem337A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Problem337A-Debug-3db17b3f9ccdf62b7d65.json",
+					"name" : "Problem337A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Problem381A::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Problem381A-Debug-b267e07486d03dc25dde.json",
 					"name" : "Problem381A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Problem405A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Problem405A-Debug-dc55344f05be29a962f4.json",
+					"name" : "Problem405A",
 					"projectIndex" : 0
 				},
 				{
@@ -657,6 +704,13 @@
 					"id" : "Problem510A::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Problem510A-Debug-c15a389864731bf09e0c.json",
 					"name" : "Problem510A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Problem580A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Problem580A-Debug-3afae52cfe1983f4c40b.json",
+					"name" : "Problem580A",
 					"projectIndex" : 0
 				},
 				{
